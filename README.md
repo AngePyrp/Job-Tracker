@@ -24,7 +24,7 @@
 
 ### 1. Ρύθμιση backend
 
-Δημιουργήστε το αρχείο `server/.env` με τις δικές σου τιμές:
+Δημιουργήστε το αρχείο `server/.env` με τις δικές σας τιμές:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
@@ -75,4 +75,4 @@ npm run build
 
 ## Ασφάλεια ρυθμίσεων
 
-Το `server/.env` περιέχει το MongoDB connection string και δεν πρέπει να προστεθεί στο Git. Χρησιμοποιήστε τοπικές μεταβλητές περιβάλλοντος στο deployment και μην ανεβάζεις credentials στο repository.
+Το `server/.env` περιέχει το MongoDB connection string και δεν πρέπει να προστεθεί στο Git. Χρησιμοποιήστε τοπικές μεταβλητές περιβάλλοντος στο deployment και μην ανεβάζετε credentials στο repository.
