@@ -24,7 +24,7 @@
 
 ### 1. Ρύθμιση backend
 
-Δημιούργησε το αρχείο `server/.env` με τις δικές σου τιμές:
+Δημιουργήστε το αρχείο `server/.env` με τις δικές σου τιμές:
 
 ```env
 MONGO_URI=your_mongodb_connection_string
@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-Άνοιξε τη διεύθυνση που θα εμφανίσει το Vite (συνήθως `http://localhost:5173`). Από προεπιλογή, το frontend επικοινωνεί με το API στο `http://localhost:5000`. Για διαφορετική διεύθυνση API, όρισε τη μεταβλητή `VITE_API_URL` στο περιβάλλον του frontend.
+Ανοίξτε τη διεύθυνση που θα εμφανίσει το Vite (συνήθως `http://localhost:5173`). Από προεπιλογή, το frontend επικοινωνεί με το API στο `http://localhost:5000`. Για διαφορετική διεύθυνση API, ορίστε τη μεταβλητή `VITE_API_URL` στο περιβάλλον του frontend.
 
 ## API
 
@@ -75,4 +75,4 @@ npm run build
 
 ## Ασφάλεια ρυθμίσεων
 
-Το `server/.env` περιέχει το MongoDB connection string και δεν πρέπει να προστεθεί στο Git. Χρησιμοποίησε τοπικές μεταβλητές περιβάλλοντος στο deployment και μην ανεβάζεις credentials στο repository.
+Το `server/.env` περιέχει το MongoDB connection string και δεν πρέπει να προστεθεί στο Git. Χρησιμοποιήστε τοπικές μεταβλητές περιβάλλοντος στο deployment και μην ανεβάζεις credentials στο repository.
